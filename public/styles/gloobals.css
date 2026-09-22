@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
-
 :root {
   --background: #f7f4ee;
   --foreground: #1f2937;
@@ -25,7 +23,7 @@ html.dark {
   --accent-soft: rgba(216, 155, 119, 0.12);
 }
 
-@theme inline {
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

@@ -18,9 +18,9 @@ export default function Footer() {
             Visit
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-stone-600 dark:text-stone-300">
-            <li>18 Orchard Lane</li>
-            <li>New York, NY</li>
-            <li>(212) 555-0134</li>
+            <li>Mvan, Yaounde</li>
+            <li>Cameroon</li>
+            <li>658 214 680</li>
           </ul>
         </div>
 

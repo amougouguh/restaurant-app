@@ -23,7 +23,7 @@ export default function MenuCard({ item }: MenuCardProps) {
           </h3>
         </div>
         <span className="text-lg font-semibold text-stone-900 dark:text-stone-100">
-          ${item.price.toFixed(2)}
+          {item.price.toLocaleString('en-US')} FCFA
         </span>
       </div>
 

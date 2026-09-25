@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Verdant Table",
-  description: "A warm modern restaurant experience with seasonal dining and handcrafted drinks.",
+  description: "Cameroonian dining, warm hospitality, and local flavors in Yaounde.",
 };
 
 export default function RootLayout({

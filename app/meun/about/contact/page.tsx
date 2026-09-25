@@ -10,24 +10,34 @@ export default function ContactPage() {
             Book your next gathering.
           </h1>
           <p className="mt-5 text-lg leading-8 text-stone-600 dark:text-stone-300">
-            We would love to host your dinner, celebration, or special occasion.
+            Visit us in Yaounde for generous Cameroonian cooking, warm hospitality, and a table made for sharing.
           </p>
         </div>
 
         <div className="space-y-5 text-stone-700 dark:text-stone-200">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-stone-500 dark:text-stone-400">Address</p>
-            <p className="mt-2 text-lg">18 Orchard Lane, New York, NY</p>
+            <p className="mt-2 text-lg">Mvan, Yaounde, Centre Region, Cameroon</p>
           </div>
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-stone-500 dark:text-stone-400">Phone</p>
-            <p className="mt-2 text-lg">(212) 555-0134</p>
+            <p className="mt-2 text-lg">658 214 680</p>
           </div>
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-stone-500 dark:text-stone-400">Email</p>
             <p className="mt-2 text-lg">hello@verdanttable.com</p>
           </div>
         </div>
+      </div>
+
+      <div className="mt-10 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
+        <iframe
+          title="Map showing Yaounde, Cameroon"
+          src="https://www.google.com/maps?q=3.8480,11.5021&z=15&output=embed"
+          className="h-80 w-full border-0"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </div>
     </section>
   );

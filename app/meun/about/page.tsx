@@ -10,12 +10,11 @@ export default function AboutPage() {
 
       <div className="mt-10 space-y-6 text-lg leading-8 text-stone-600 dark:text-stone-300">
         <p>
-          Verdant Table began with a simple idea: bring people together around honest food, slow conversation,
-          and a deeply welcoming room.
+          Verdant Table brings people together around the generous flavors of Cameroon, slow conversation, and a deeply welcoming room in Yaounde.
         </p>
         <p>
-          We partner with local growers and makers to shape a menu that changes with the rhythm of the season,
-          always guided by flavor, balance, and craft.
+          Our kitchen celebrates beloved dishes from across the country, from ndole and eru to poulet DG,
+          prepared with care and served with the warmth of home.
         </p>
         <p>
           Whether you are joining us for a quiet dinner or a celebratory night out, we want every detail to feel
